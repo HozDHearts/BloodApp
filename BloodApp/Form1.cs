@@ -15,6 +15,8 @@ namespace BloodApp
         public Form1()
         {
             InitializeComponent();
+            Blood1 BloodConfig = new Blood1();
+            BloodConfig.Loging();
         }
     }
 }

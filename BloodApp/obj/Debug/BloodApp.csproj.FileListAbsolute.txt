@@ -1,0 +1,12 @@
+C:\BloodApp\BloodApp\bin\Debug\Blood.mdf
+C:\BloodApp\BloodApp\bin\Debug\Blood_log.ldf
+C:\BloodApp\BloodApp\bin\Debug\BloodApp.exe.config
+C:\BloodApp\BloodApp\bin\Debug\BloodApp.exe
+C:\BloodApp\BloodApp\bin\Debug\BloodApp.pdb
+C:\BloodApp\BloodApp\obj\Debug\BloodApp.csprojAssemblyReference.cache
+C:\BloodApp\BloodApp\obj\Debug\BloodApp.Form1.resources
+C:\BloodApp\BloodApp\obj\Debug\BloodApp.Properties.Resources.resources
+C:\BloodApp\BloodApp\obj\Debug\BloodApp.csproj.GenerateResource.cache
+C:\BloodApp\BloodApp\obj\Debug\BloodApp.csproj.CoreCompileInputs.cache
+C:\BloodApp\BloodApp\obj\Debug\BloodApp.exe
+C:\BloodApp\BloodApp\obj\Debug\BloodApp.pdb
