@@ -10,3 +10,6 @@ C:\BloodApp\BloodApp\obj\Debug\BloodApp.csproj.GenerateResource.cache
 C:\BloodApp\BloodApp\obj\Debug\BloodApp.csproj.CoreCompileInputs.cache
 C:\BloodApp\BloodApp\obj\Debug\BloodApp.exe
 C:\BloodApp\BloodApp\obj\Debug\BloodApp.pdb
+C:\BloodApp\BloodApp\bin\Debug\Bunifu_UI_v1.52.dll
+C:\BloodApp\BloodApp\obj\Debug\BloodApp.csproj.CopyComplete
+C:\BloodApp\BloodApp\obj\Debug\BloodApp.FormRegister.resources

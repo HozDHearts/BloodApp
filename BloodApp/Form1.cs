@@ -18,5 +18,22 @@ namespace BloodApp
             Blood1 BloodConfig = new Blood1();
             BloodConfig.Loging();
         }
+
+        private void btnExitApp_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnExitApp2_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnGoRegister_Click(object sender, EventArgs e)
+        {
+            FormRegister Registration = new FormRegister();
+            Registration.Show();
+            this.Hide();
+        }
     }
 }
