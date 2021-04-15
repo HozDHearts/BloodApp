@@ -29,8 +29,11 @@ namespace BloodApp
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRegister));
             this.pnlContenrRegister = new System.Windows.Forms.Panel();
+            this.txtUserPosition = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.lblAlert = new System.Windows.Forms.Label();
             this.btnGoLogin = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnRegisterUser = new Bunifu.Framework.UI.BunifuThinButton2();
             this.txtRepeatPasswordRegister = new Bunifu.Framework.UI.BunifuMaterialTextbox();
@@ -38,12 +41,14 @@ namespace BloodApp
             this.txtUserPasswordRegister = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.txtUserNameRegister = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.lblRegister = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.lblAlert = new System.Windows.Forms.Label();
+            this.erpUser = new System.Windows.Forms.ErrorProvider(this.components);
             this.pnlContenrRegister.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.erpUser)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlContenrRegister
             // 
+            this.pnlContenrRegister.Controls.Add(this.txtUserPosition);
             this.pnlContenrRegister.Controls.Add(this.lblAlert);
             this.pnlContenrRegister.Controls.Add(this.btnGoLogin);
             this.pnlContenrRegister.Controls.Add(this.btnRegisterUser);
@@ -57,6 +62,38 @@ namespace BloodApp
             this.pnlContenrRegister.Name = "pnlContenrRegister";
             this.pnlContenrRegister.Size = new System.Drawing.Size(877, 599);
             this.pnlContenrRegister.TabIndex = 0;
+            // 
+            // txtUserPosition
+            // 
+            this.txtUserPosition.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtUserPosition.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUserPosition.ForeColor = System.Drawing.Color.White;
+            this.txtUserPosition.HintForeColor = System.Drawing.Color.White;
+            this.txtUserPosition.HintText = "Write the user Position";
+            this.txtUserPosition.isPassword = false;
+            this.txtUserPosition.LineFocusedColor = System.Drawing.Color.MidnightBlue;
+            this.txtUserPosition.LineIdleColor = System.Drawing.Color.DarkGray;
+            this.txtUserPosition.LineMouseHoverColor = System.Drawing.Color.MidnightBlue;
+            this.txtUserPosition.LineThickness = 4;
+            this.txtUserPosition.Location = new System.Drawing.Point(169, 435);
+            this.txtUserPosition.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtUserPosition.Name = "txtUserPosition";
+            this.txtUserPosition.Size = new System.Drawing.Size(462, 54);
+            this.txtUserPosition.TabIndex = 18;
+            this.txtUserPosition.Text = "Write the user Position.";
+            this.txtUserPosition.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtUserPosition.Validating += new System.ComponentModel.CancelEventHandler(this.txtUserPosition_Validating);
+            // 
+            // lblAlert
+            // 
+            this.lblAlert.AutoSize = true;
+            this.lblAlert.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAlert.ForeColor = System.Drawing.Color.White;
+            this.lblAlert.Location = new System.Drawing.Point(544, 506);
+            this.lblAlert.Name = "lblAlert";
+            this.lblAlert.Size = new System.Drawing.Size(279, 20);
+            this.lblAlert.TabIndex = 17;
+            this.lblAlert.Text = "Already have an account? Login here.";
             // 
             // btnGoLogin
             // 
@@ -76,7 +113,7 @@ namespace BloodApp
             this.btnGoLogin.IdleFillColor = System.Drawing.Color.White;
             this.btnGoLogin.IdleForecolor = System.Drawing.Color.Black;
             this.btnGoLogin.IdleLineColor = System.Drawing.Color.Black;
-            this.btnGoLogin.Location = new System.Drawing.Point(571, 484);
+            this.btnGoLogin.Location = new System.Drawing.Point(573, 531);
             this.btnGoLogin.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnGoLogin.Name = "btnGoLogin";
             this.btnGoLogin.Size = new System.Drawing.Size(217, 41);
@@ -102,12 +139,13 @@ namespace BloodApp
             this.btnRegisterUser.IdleFillColor = System.Drawing.Color.White;
             this.btnRegisterUser.IdleForecolor = System.Drawing.Color.Black;
             this.btnRegisterUser.IdleLineColor = System.Drawing.Color.Black;
-            this.btnRegisterUser.Location = new System.Drawing.Point(169, 484);
+            this.btnRegisterUser.Location = new System.Drawing.Point(169, 531);
             this.btnRegisterUser.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnRegisterUser.Name = "btnRegisterUser";
             this.btnRegisterUser.Size = new System.Drawing.Size(217, 41);
             this.btnRegisterUser.TabIndex = 15;
             this.btnRegisterUser.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnRegisterUser.Click += new System.EventHandler(this.btnRegisterUser_Click);
             // 
             // txtRepeatPasswordRegister
             // 
@@ -127,6 +165,7 @@ namespace BloodApp
             this.txtRepeatPasswordRegister.Size = new System.Drawing.Size(462, 54);
             this.txtRepeatPasswordRegister.TabIndex = 14;
             this.txtRepeatPasswordRegister.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtRepeatPasswordRegister.Validating += new System.ComponentModel.CancelEventHandler(this.txtRepeatPasswordRegister_Validating);
             // 
             // txtUserEmailRegister
             // 
@@ -146,6 +185,7 @@ namespace BloodApp
             this.txtUserEmailRegister.Size = new System.Drawing.Size(462, 54);
             this.txtUserEmailRegister.TabIndex = 13;
             this.txtUserEmailRegister.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtUserEmailRegister.Validating += new System.ComponentModel.CancelEventHandler(this.txtUserEmailRegister_Validating);
             // 
             // txtUserPasswordRegister
             // 
@@ -165,6 +205,7 @@ namespace BloodApp
             this.txtUserPasswordRegister.Size = new System.Drawing.Size(462, 54);
             this.txtUserPasswordRegister.TabIndex = 12;
             this.txtUserPasswordRegister.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtUserPasswordRegister.Validating += new System.ComponentModel.CancelEventHandler(this.txtUserPasswordRegister_Validating);
             // 
             // txtUserNameRegister
             // 
@@ -184,6 +225,7 @@ namespace BloodApp
             this.txtUserNameRegister.Size = new System.Drawing.Size(462, 54);
             this.txtUserNameRegister.TabIndex = 11;
             this.txtUserNameRegister.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtUserNameRegister.Validating += new System.ComponentModel.CancelEventHandler(this.txtUserNameRegister_Validating);
             // 
             // lblRegister
             // 
@@ -196,16 +238,10 @@ namespace BloodApp
             this.lblRegister.TabIndex = 10;
             this.lblRegister.Text = "Register User";
             // 
-            // lblAlert
+            // erpUser
             // 
-            this.lblAlert.AutoSize = true;
-            this.lblAlert.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAlert.ForeColor = System.Drawing.Color.White;
-            this.lblAlert.Location = new System.Drawing.Point(542, 458);
-            this.lblAlert.Name = "lblAlert";
-            this.lblAlert.Size = new System.Drawing.Size(279, 20);
-            this.lblAlert.TabIndex = 17;
-            this.lblAlert.Text = "Already have an account? Login here.";
+            this.erpUser.ContainerControl = this;
+            this.erpUser.Icon = ((System.Drawing.Icon)(resources.GetObject("erpUser.Icon")));
             // 
             // FormRegister
             // 
@@ -220,6 +256,7 @@ namespace BloodApp
             this.Text = "FormRegister";
             this.pnlContenrRegister.ResumeLayout(false);
             this.pnlContenrRegister.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.erpUser)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -235,5 +272,7 @@ namespace BloodApp
         private Bunifu.Framework.UI.BunifuCustomLabel lblRegister;
         private Bunifu.Framework.UI.BunifuThinButton2 btnGoLogin;
         private System.Windows.Forms.Label lblAlert;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txtUserPosition;
+        private System.Windows.Forms.ErrorProvider erpUser;
     }
 }
