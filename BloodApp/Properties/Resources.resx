@@ -118,19 +118,70 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Donate blood remastered chiquito" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Donate blood remastered chiquito.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1035978" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1035978.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ギャー笑_汎用アイコン" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ギャー笑_汎用アイコン.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ギャー_汎用アイコン" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ギャー_汎用アイコン.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ブラン" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ブラン.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ネプギア_ごみばこ いっぱい _128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ネプギア_ごみばこ いっぱい _128.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ブーケ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ブーケ.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Donate blood remastewerwerwerwerwerwerssssssed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Donate blood remastewerwerwerwerwerwerssssssed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ベール" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ベール.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blood.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Donate blood definitive chiquito" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Donate blood definitive chiquito.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ちっちゃいーすん_マイコンピュータ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ちっちゃいーすん_マイコンピュータ.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="プルルート_ゴミ箱" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\プルルート_ゴミ箱.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="User" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\User.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ネプギア1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ネプギア1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ネプテューヌ ゴミ箱" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ネプテューヌ ゴミ箱.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="waifu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waifu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ノワール" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ノワール.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ギャー_汎用アイコン" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ギャー_汎用アイコン.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Donate blood remastered" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Donate blood remastered.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Donate blood remasterssssssed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Donate blood remasterssssssed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ネプギア" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ネプギア.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ネプギア_ごみばこ いっぱい _128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ネプギア_ごみばこ いっぱい _128.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thumb-1920-740377" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumb-1920-740377.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -14,3 +14,4 @@ C:\BloodApp\BloodApp\bin\Debug\Bunifu_UI_v1.52.dll
 C:\BloodApp\BloodApp\obj\Debug\BloodApp.csproj.CopyComplete
 C:\BloodApp\BloodApp\obj\Debug\BloodApp.FormRegister.resources
 C:\BloodApp\BloodApp\obj\Debug\BloodApp.frmDashboard.resources
+C:\BloodApp\BloodApp\obj\Debug\BloodApp.frminicio.resources

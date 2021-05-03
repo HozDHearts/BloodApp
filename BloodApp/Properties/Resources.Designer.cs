@@ -63,9 +63,99 @@ namespace BloodApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1035978 {
+            get {
+                object obj = ResourceManager.GetObject("1035978", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blood {
+            get {
+                object obj = ResourceManager.GetObject("blood", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Donate_blood_definitive_chiquito {
+            get {
+                object obj = ResourceManager.GetObject("Donate blood definitive chiquito", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Donate_blood_remastered {
+            get {
+                object obj = ResourceManager.GetObject("Donate blood remastered", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Donate_blood_remastered_chiquito {
+            get {
+                object obj = ResourceManager.GetObject("Donate blood remastered chiquito", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Donate_blood_remasterssssssed {
+            get {
+                object obj = ResourceManager.GetObject("Donate blood remasterssssssed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Donate_blood_remastewerwerwerwerwerwerssssssed {
+            get {
+                object obj = ResourceManager.GetObject("Donate blood remastewerwerwerwerwerwerssssssed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thumb_1920_740377 {
+            get {
+                object obj = ResourceManager.GetObject("thumb-1920-740377", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap User {
             get {
                 object obj = ResourceManager.GetObject("User", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap waifu {
+            get {
+                object obj = ResourceManager.GetObject("waifu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,6 +183,26 @@ namespace BloodApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ちっちゃいーすん_マイコンピュータ {
+            get {
+                object obj = ResourceManager.GetObject("ちっちゃいーすん_マイコンピュータ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ネプギア {
+            get {
+                object obj = ResourceManager.GetObject("ネプギア", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ネプギア_ごみばこ_いっぱい__128 {
             get {
                 object obj = ResourceManager.GetObject("ネプギア_ごみばこ いっぱい _128", resourceCulture);
@@ -103,9 +213,69 @@ namespace BloodApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ネプギア1 {
+            get {
+                object obj = ResourceManager.GetObject("ネプギア1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ネプテューヌ_ゴミ箱 {
+            get {
+                object obj = ResourceManager.GetObject("ネプテューヌ ゴミ箱", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ノワール {
+            get {
+                object obj = ResourceManager.GetObject("ノワール", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ブーケ {
+            get {
+                object obj = ResourceManager.GetObject("ブーケ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ブラン {
+            get {
+                object obj = ResourceManager.GetObject("ブラン", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap プルルート_ゴミ箱 {
             get {
                 object obj = ResourceManager.GetObject("プルルート_ゴミ箱", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ベール {
+            get {
+                object obj = ResourceManager.GetObject("ベール", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

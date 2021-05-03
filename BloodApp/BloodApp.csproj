@@ -85,6 +85,12 @@
     <Compile Include="frmDashboard.Designer.cs">
       <DependentUpon>frmDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="frminicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frminicio.Designer.cs">
+      <DependentUpon>frminicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmDashboard.resx">
       <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frminicio.resx">
+      <DependentUpon>frminicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -127,6 +136,23 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Blood.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\thumb-1920-740377.png" />
+    <None Include="Resources\waifu.jpg" />
+    <None Include="Resources\1035978.jpg" />
+    <None Include="Resources\ネプテューヌ ゴミ箱.ico" />
+    <None Include="Resources\ネプギア1.ico" />
+    <None Include="Resources\ノワール.ico" />
+    <None Include="Resources\ブラン.ico" />
+    <None Include="Resources\ブーケ.ico" />
+    <None Include="Resources\ベール.ico" />
+    <None Include="Resources\ネプギア.ico" />
+    <None Include="Resources\Donate blood definitive chiquito.jpg" />
+    <None Include="Resources\Donate blood remastered chiquito.jpg" />
+    <None Include="Resources\Donate blood remastewerwerwerwerwerwerssssssed.jpg" />
+    <None Include="Resources\Donate blood remasterssssssed.jpg" />
+    <None Include="Resources\blood.jpg" />
+    <None Include="Resources\Donate blood remastered.jpg" />
+    <None Include="Resources\ちっちゃいーすん_マイコンピュータ.ico" />
     <None Include="Resources\User.ico" />
     <None Include="Resources\ネプギア_ごみばこ いっぱい _128.ico" />
     <None Include="Resources\ギャー笑_汎用アイコン.ico" />

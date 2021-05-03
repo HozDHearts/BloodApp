@@ -48,6 +48,7 @@ namespace BloodApp
             // 
             // pnlContenrRegister
             // 
+            this.pnlContenrRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.pnlContenrRegister.Controls.Add(this.txtUserPosition);
             this.pnlContenrRegister.Controls.Add(this.lblAlert);
             this.pnlContenrRegister.Controls.Add(this.btnGoLogin);
@@ -60,7 +61,7 @@ namespace BloodApp
             this.pnlContenrRegister.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContenrRegister.Location = new System.Drawing.Point(0, 0);
             this.pnlContenrRegister.Name = "pnlContenrRegister";
-            this.pnlContenrRegister.Size = new System.Drawing.Size(877, 599);
+            this.pnlContenrRegister.Size = new System.Drawing.Size(689, 488);
             this.pnlContenrRegister.TabIndex = 0;
             // 
             // txtUserPosition
@@ -75,7 +76,7 @@ namespace BloodApp
             this.txtUserPosition.LineIdleColor = System.Drawing.Color.DarkGray;
             this.txtUserPosition.LineMouseHoverColor = System.Drawing.Color.MidnightBlue;
             this.txtUserPosition.LineThickness = 4;
-            this.txtUserPosition.Location = new System.Drawing.Point(169, 435);
+            this.txtUserPosition.Location = new System.Drawing.Point(101, 318);
             this.txtUserPosition.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtUserPosition.Name = "txtUserPosition";
             this.txtUserPosition.Size = new System.Drawing.Size(462, 54);
@@ -89,7 +90,7 @@ namespace BloodApp
             this.lblAlert.AutoSize = true;
             this.lblAlert.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAlert.ForeColor = System.Drawing.Color.White;
-            this.lblAlert.Location = new System.Drawing.Point(544, 506);
+            this.lblAlert.Location = new System.Drawing.Point(355, 400);
             this.lblAlert.Name = "lblAlert";
             this.lblAlert.Size = new System.Drawing.Size(279, 20);
             this.lblAlert.TabIndex = 17;
@@ -102,7 +103,7 @@ namespace BloodApp
             this.btnGoLogin.ActiveFillColor = System.Drawing.Color.MidnightBlue;
             this.btnGoLogin.ActiveForecolor = System.Drawing.Color.White;
             this.btnGoLogin.ActiveLineColor = System.Drawing.Color.MidnightBlue;
-            this.btnGoLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(42)))), ((int)(((byte)(42)))));
+            this.btnGoLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.btnGoLogin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGoLogin.BackgroundImage")));
             this.btnGoLogin.ButtonText = "Loging";
             this.btnGoLogin.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -113,7 +114,7 @@ namespace BloodApp
             this.btnGoLogin.IdleFillColor = System.Drawing.Color.White;
             this.btnGoLogin.IdleForecolor = System.Drawing.Color.Black;
             this.btnGoLogin.IdleLineColor = System.Drawing.Color.Black;
-            this.btnGoLogin.Location = new System.Drawing.Point(573, 531);
+            this.btnGoLogin.Location = new System.Drawing.Point(359, 425);
             this.btnGoLogin.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnGoLogin.Name = "btnGoLogin";
             this.btnGoLogin.Size = new System.Drawing.Size(217, 41);
@@ -128,7 +129,7 @@ namespace BloodApp
             this.btnRegisterUser.ActiveFillColor = System.Drawing.Color.MidnightBlue;
             this.btnRegisterUser.ActiveForecolor = System.Drawing.Color.White;
             this.btnRegisterUser.ActiveLineColor = System.Drawing.Color.MidnightBlue;
-            this.btnRegisterUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(42)))), ((int)(((byte)(42)))));
+            this.btnRegisterUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.btnRegisterUser.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRegisterUser.BackgroundImage")));
             this.btnRegisterUser.ButtonText = "Register Account";
             this.btnRegisterUser.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -139,7 +140,7 @@ namespace BloodApp
             this.btnRegisterUser.IdleFillColor = System.Drawing.Color.White;
             this.btnRegisterUser.IdleForecolor = System.Drawing.Color.Black;
             this.btnRegisterUser.IdleLineColor = System.Drawing.Color.Black;
-            this.btnRegisterUser.Location = new System.Drawing.Point(169, 531);
+            this.btnRegisterUser.Location = new System.Drawing.Point(83, 400);
             this.btnRegisterUser.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnRegisterUser.Name = "btnRegisterUser";
             this.btnRegisterUser.Size = new System.Drawing.Size(217, 41);
@@ -159,7 +160,7 @@ namespace BloodApp
             this.txtRepeatPasswordRegister.LineIdleColor = System.Drawing.Color.DarkGray;
             this.txtRepeatPasswordRegister.LineMouseHoverColor = System.Drawing.Color.MidnightBlue;
             this.txtRepeatPasswordRegister.LineThickness = 4;
-            this.txtRepeatPasswordRegister.Location = new System.Drawing.Point(169, 250);
+            this.txtRepeatPasswordRegister.Location = new System.Drawing.Point(101, 190);
             this.txtRepeatPasswordRegister.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtRepeatPasswordRegister.Name = "txtRepeatPasswordRegister";
             this.txtRepeatPasswordRegister.Size = new System.Drawing.Size(462, 54);
@@ -179,7 +180,7 @@ namespace BloodApp
             this.txtUserEmailRegister.LineIdleColor = System.Drawing.Color.DarkGray;
             this.txtUserEmailRegister.LineMouseHoverColor = System.Drawing.Color.MidnightBlue;
             this.txtUserEmailRegister.LineThickness = 4;
-            this.txtUserEmailRegister.Location = new System.Drawing.Point(169, 343);
+            this.txtUserEmailRegister.Location = new System.Drawing.Point(101, 254);
             this.txtUserEmailRegister.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtUserEmailRegister.Name = "txtUserEmailRegister";
             this.txtUserEmailRegister.Size = new System.Drawing.Size(462, 54);
@@ -199,7 +200,7 @@ namespace BloodApp
             this.txtUserPasswordRegister.LineIdleColor = System.Drawing.Color.DarkGray;
             this.txtUserPasswordRegister.LineMouseHoverColor = System.Drawing.Color.MidnightBlue;
             this.txtUserPasswordRegister.LineThickness = 4;
-            this.txtUserPasswordRegister.Location = new System.Drawing.Point(169, 167);
+            this.txtUserPasswordRegister.Location = new System.Drawing.Point(101, 126);
             this.txtUserPasswordRegister.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtUserPasswordRegister.Name = "txtUserPasswordRegister";
             this.txtUserPasswordRegister.Size = new System.Drawing.Size(462, 54);
@@ -219,7 +220,7 @@ namespace BloodApp
             this.txtUserNameRegister.LineIdleColor = System.Drawing.Color.DarkGray;
             this.txtUserNameRegister.LineMouseHoverColor = System.Drawing.Color.MidnightBlue;
             this.txtUserNameRegister.LineThickness = 4;
-            this.txtUserNameRegister.Location = new System.Drawing.Point(169, 75);
+            this.txtUserNameRegister.Location = new System.Drawing.Point(101, 62);
             this.txtUserNameRegister.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtUserNameRegister.Name = "txtUserNameRegister";
             this.txtUserNameRegister.Size = new System.Drawing.Size(462, 54);
@@ -229,14 +230,14 @@ namespace BloodApp
             // 
             // lblRegister
             // 
-            this.lblRegister.AutoSize = true;
             this.lblRegister.Font = new System.Drawing.Font("MS Reference Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRegister.ForeColor = System.Drawing.Color.White;
-            this.lblRegister.Location = new System.Drawing.Point(283, 23);
+            this.lblRegister.Location = new System.Drawing.Point(208, 23);
             this.lblRegister.Name = "lblRegister";
             this.lblRegister.Size = new System.Drawing.Size(212, 34);
             this.lblRegister.TabIndex = 10;
             this.lblRegister.Text = "Register User";
+            this.lblRegister.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // erpUser
             // 
@@ -248,7 +249,7 @@ namespace BloodApp
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(42)))), ((int)(((byte)(42)))));
-            this.ClientSize = new System.Drawing.Size(877, 599);
+            this.ClientSize = new System.Drawing.Size(689, 488);
             this.Controls.Add(this.pnlContenrRegister);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormRegister";

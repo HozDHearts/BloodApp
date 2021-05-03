@@ -107,7 +107,8 @@ namespace BloodApp
         }
         private bool validate_Email()
         {
-            if(Regex.IsMatch(txtUserEmailRegister.Text.Trim(), @"^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"))
+            if(Regex.IsMatch(txtUserEmailRegister.Text.Trim(), @"^[^@] +@[^@] +\.[a-zA - Z]{ 2,}
+            $"))
             {
                 erpUser.SetError(txtUserEmailRegister, "Use a Valid Email");
                 return false;
@@ -135,6 +136,40 @@ namespace BloodApp
                 erpUser.SetError(txtUserPosition, "");
                 return true;
             }
+        }
+        private void lblRegister_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblAlert_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtRepeatPasswordRegister_OnValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUserEmailRegister_OnValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUserPasswordRegister_OnValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUserNameRegister_OnValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUserPosition_OnValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

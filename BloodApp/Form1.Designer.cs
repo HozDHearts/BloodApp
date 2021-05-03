@@ -33,21 +33,22 @@ namespace BloodApp
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pnlToolBarLogin = new System.Windows.Forms.Panel();
             this.lblAppName = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.btnExitApp2 = new System.Windows.Forms.PictureBox();
-            this.btnExitApp = new System.Windows.Forms.PictureBox();
             this.pnlContentLogin = new System.Windows.Forms.Panel();
             this.lblAlert = new System.Windows.Forms.Label();
-            this.btnGoRegister = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.btnLogin = new Bunifu.Framework.UI.BunifuThinButton2();
             this.txtPasswordLogin = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.txtUserNameLogin = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.lblLogin = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.erpUser = new System.Windows.Forms.ErrorProvider(this.components);
+            this.btnGoRegister = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnLogin = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnExitApp2 = new System.Windows.Forms.PictureBox();
+            this.btnExitApp = new System.Windows.Forms.PictureBox();
+            this.DragControl2 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.pnlToolBarLogin.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnExitApp2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnExitApp)).BeginInit();
             this.pnlContentLogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.erpUser)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnExitApp2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnExitApp)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlToolBarLogin
@@ -73,30 +74,6 @@ namespace BloodApp
             this.lblAppName.TabIndex = 2;
             this.lblAppName.Text = "Blood Bank";
             // 
-            // btnExitApp2
-            // 
-            this.btnExitApp2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnExitApp2.Image = global::BloodApp.Properties.Resources.ギャー_汎用アイコン;
-            this.btnExitApp2.Location = new System.Drawing.Point(702, 3);
-            this.btnExitApp2.Name = "btnExitApp2";
-            this.btnExitApp2.Size = new System.Drawing.Size(30, 30);
-            this.btnExitApp2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.btnExitApp2.TabIndex = 1;
-            this.btnExitApp2.TabStop = false;
-            this.btnExitApp2.Click += new System.EventHandler(this.btnExitApp2_Click);
-            // 
-            // btnExitApp
-            // 
-            this.btnExitApp.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnExitApp.Image = global::BloodApp.Properties.Resources.ネプギア_ごみばこ_いっぱい__128;
-            this.btnExitApp.Location = new System.Drawing.Point(758, 3);
-            this.btnExitApp.Name = "btnExitApp";
-            this.btnExitApp.Size = new System.Drawing.Size(30, 30);
-            this.btnExitApp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.btnExitApp.TabIndex = 0;
-            this.btnExitApp.TabStop = false;
-            this.btnExitApp.Click += new System.EventHandler(this.btnExitApp_Click);
-            // 
             // pnlContentLogin
             // 
             this.pnlContentLogin.Controls.Add(this.lblAlert);
@@ -121,58 +98,6 @@ namespace BloodApp
             this.lblAlert.Size = new System.Drawing.Size(37, 28);
             this.lblAlert.TabIndex = 18;
             this.lblAlert.Text = "Or";
-            // 
-            // btnGoRegister
-            // 
-            this.btnGoRegister.ActiveBorderThickness = 1;
-            this.btnGoRegister.ActiveCornerRadius = 20;
-            this.btnGoRegister.ActiveFillColor = System.Drawing.Color.MidnightBlue;
-            this.btnGoRegister.ActiveForecolor = System.Drawing.Color.White;
-            this.btnGoRegister.ActiveLineColor = System.Drawing.Color.MidnightBlue;
-            this.btnGoRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(42)))), ((int)(((byte)(42)))));
-            this.btnGoRegister.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGoRegister.BackgroundImage")));
-            this.btnGoRegister.ButtonText = "Create Account";
-            this.btnGoRegister.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGoRegister.Font = new System.Drawing.Font("Cooper Black", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGoRegister.ForeColor = System.Drawing.Color.Black;
-            this.btnGoRegister.IdleBorderThickness = 1;
-            this.btnGoRegister.IdleCornerRadius = 20;
-            this.btnGoRegister.IdleFillColor = System.Drawing.Color.White;
-            this.btnGoRegister.IdleForecolor = System.Drawing.Color.Black;
-            this.btnGoRegister.IdleLineColor = System.Drawing.Color.Black;
-            this.btnGoRegister.Location = new System.Drawing.Point(411, 326);
-            this.btnGoRegister.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.btnGoRegister.Name = "btnGoRegister";
-            this.btnGoRegister.Size = new System.Drawing.Size(217, 41);
-            this.btnGoRegister.TabIndex = 7;
-            this.btnGoRegister.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnGoRegister.Click += new System.EventHandler(this.btnGoRegister_Click);
-            // 
-            // btnLogin
-            // 
-            this.btnLogin.ActiveBorderThickness = 1;
-            this.btnLogin.ActiveCornerRadius = 20;
-            this.btnLogin.ActiveFillColor = System.Drawing.Color.MidnightBlue;
-            this.btnLogin.ActiveForecolor = System.Drawing.Color.White;
-            this.btnLogin.ActiveLineColor = System.Drawing.Color.MidnightBlue;
-            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(42)))), ((int)(((byte)(42)))));
-            this.btnLogin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLogin.BackgroundImage")));
-            this.btnLogin.ButtonText = "Login";
-            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogin.Font = new System.Drawing.Font("Cooper Black", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.ForeColor = System.Drawing.Color.Black;
-            this.btnLogin.IdleBorderThickness = 1;
-            this.btnLogin.IdleCornerRadius = 20;
-            this.btnLogin.IdleFillColor = System.Drawing.Color.White;
-            this.btnLogin.IdleForecolor = System.Drawing.Color.Black;
-            this.btnLogin.IdleLineColor = System.Drawing.Color.Black;
-            this.btnLogin.Location = new System.Drawing.Point(139, 326);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(217, 41);
-            this.btnLogin.TabIndex = 6;
-            this.btnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // txtPasswordLogin
             // 
@@ -230,6 +155,89 @@ namespace BloodApp
             this.erpUser.ContainerControl = this;
             this.erpUser.Icon = ((System.Drawing.Icon)(resources.GetObject("erpUser.Icon")));
             // 
+            // btnGoRegister
+            // 
+            this.btnGoRegister.ActiveBorderThickness = 1;
+            this.btnGoRegister.ActiveCornerRadius = 20;
+            this.btnGoRegister.ActiveFillColor = System.Drawing.Color.MidnightBlue;
+            this.btnGoRegister.ActiveForecolor = System.Drawing.Color.White;
+            this.btnGoRegister.ActiveLineColor = System.Drawing.Color.MidnightBlue;
+            this.btnGoRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(42)))), ((int)(((byte)(42)))));
+            this.btnGoRegister.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGoRegister.BackgroundImage")));
+            this.btnGoRegister.ButtonText = "Create Account";
+            this.btnGoRegister.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGoRegister.Font = new System.Drawing.Font("Cooper Black", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGoRegister.ForeColor = System.Drawing.Color.Black;
+            this.btnGoRegister.IdleBorderThickness = 1;
+            this.btnGoRegister.IdleCornerRadius = 20;
+            this.btnGoRegister.IdleFillColor = System.Drawing.Color.White;
+            this.btnGoRegister.IdleForecolor = System.Drawing.Color.Black;
+            this.btnGoRegister.IdleLineColor = System.Drawing.Color.Black;
+            this.btnGoRegister.Location = new System.Drawing.Point(411, 326);
+            this.btnGoRegister.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.btnGoRegister.Name = "btnGoRegister";
+            this.btnGoRegister.Size = new System.Drawing.Size(217, 41);
+            this.btnGoRegister.TabIndex = 7;
+            this.btnGoRegister.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnGoRegister.Click += new System.EventHandler(this.btnGoRegister_Click);
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.ActiveBorderThickness = 1;
+            this.btnLogin.ActiveCornerRadius = 20;
+            this.btnLogin.ActiveFillColor = System.Drawing.Color.MidnightBlue;
+            this.btnLogin.ActiveForecolor = System.Drawing.Color.White;
+            this.btnLogin.ActiveLineColor = System.Drawing.Color.MidnightBlue;
+            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(42)))), ((int)(((byte)(42)))));
+            this.btnLogin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLogin.BackgroundImage")));
+            this.btnLogin.ButtonText = "Login";
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogin.Font = new System.Drawing.Font("Cooper Black", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.Color.Black;
+            this.btnLogin.IdleBorderThickness = 1;
+            this.btnLogin.IdleCornerRadius = 20;
+            this.btnLogin.IdleFillColor = System.Drawing.Color.White;
+            this.btnLogin.IdleForecolor = System.Drawing.Color.Black;
+            this.btnLogin.IdleLineColor = System.Drawing.Color.Black;
+            this.btnLogin.Location = new System.Drawing.Point(139, 326);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(217, 41);
+            this.btnLogin.TabIndex = 6;
+            this.btnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            // 
+            // btnExitApp2
+            // 
+            this.btnExitApp2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExitApp2.Image = global::BloodApp.Properties.Resources.ギャー_汎用アイコン;
+            this.btnExitApp2.Location = new System.Drawing.Point(702, 3);
+            this.btnExitApp2.Name = "btnExitApp2";
+            this.btnExitApp2.Size = new System.Drawing.Size(30, 30);
+            this.btnExitApp2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.btnExitApp2.TabIndex = 1;
+            this.btnExitApp2.TabStop = false;
+            this.btnExitApp2.Click += new System.EventHandler(this.btnExitApp2_Click);
+            // 
+            // btnExitApp
+            // 
+            this.btnExitApp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExitApp.Image = global::BloodApp.Properties.Resources.ネプギア_ごみばこ_いっぱい__128;
+            this.btnExitApp.Location = new System.Drawing.Point(758, 3);
+            this.btnExitApp.Name = "btnExitApp";
+            this.btnExitApp.Size = new System.Drawing.Size(30, 30);
+            this.btnExitApp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.btnExitApp.TabIndex = 0;
+            this.btnExitApp.TabStop = false;
+            this.btnExitApp.Click += new System.EventHandler(this.btnExitApp_Click);
+            // 
+            // DragControl2
+            // 
+            this.DragControl2.Fixed = true;
+            this.DragControl2.Horizontal = true;
+            this.DragControl2.TargetControl = this.pnlToolBarLogin;
+            this.DragControl2.Vertical = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -243,11 +251,11 @@ namespace BloodApp
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.pnlToolBarLogin.ResumeLayout(false);
             this.pnlToolBarLogin.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnExitApp2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnExitApp)).EndInit();
             this.pnlContentLogin.ResumeLayout(false);
             this.pnlContentLogin.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.erpUser)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnExitApp2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnExitApp)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -266,6 +274,7 @@ namespace BloodApp
         private System.Windows.Forms.PictureBox btnExitApp2;
         private System.Windows.Forms.PictureBox btnExitApp;
         private System.Windows.Forms.ErrorProvider erpUser;
+        private Bunifu.Framework.UI.BunifuDragControl DragControl2;
     }
 }
 
