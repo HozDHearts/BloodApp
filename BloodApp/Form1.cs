@@ -99,5 +99,21 @@ namespace BloodApp
             }
         }
 
+        private void chkViewHide_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkViewHide.Checked)
+            {
+                txtPasswordLogin.isPassword = true;
+                    var checkBox = (CheckBox)sender;
+                checkBox.Text = "View";
+
+            }
+            else
+            {
+                txtPasswordLogin.isPassword = false;
+                var checkBox = (CheckBox)sender;
+                checkBox.Text = "Hide";
+            }
+        }
     }
 }

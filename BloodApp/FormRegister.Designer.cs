@@ -42,6 +42,8 @@ namespace BloodApp
             this.txtUserNameRegister = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.lblRegister = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.erpUser = new System.Windows.Forms.ErrorProvider(this.components);
+            this.chkViewHide2 = new System.Windows.Forms.CheckBox();
+            this.chkViewHide3 = new System.Windows.Forms.CheckBox();
             this.pnlContenrRegister.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.erpUser)).BeginInit();
             this.SuspendLayout();
@@ -49,6 +51,8 @@ namespace BloodApp
             // pnlContenrRegister
             // 
             this.pnlContenrRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.pnlContenrRegister.Controls.Add(this.chkViewHide3);
+            this.pnlContenrRegister.Controls.Add(this.chkViewHide2);
             this.pnlContenrRegister.Controls.Add(this.txtUserPosition);
             this.pnlContenrRegister.Controls.Add(this.lblAlert);
             this.pnlContenrRegister.Controls.Add(this.btnGoLogin);
@@ -244,6 +248,30 @@ namespace BloodApp
             this.erpUser.ContainerControl = this;
             this.erpUser.Icon = ((System.Drawing.Icon)(resources.GetObject("erpUser.Icon")));
             // 
+            // chkViewHide2
+            // 
+            this.chkViewHide2.AutoSize = true;
+            this.chkViewHide2.ForeColor = System.Drawing.SystemColors.Control;
+            this.chkViewHide2.Location = new System.Drawing.Point(572, 162);
+            this.chkViewHide2.Name = "chkViewHide2";
+            this.chkViewHide2.Size = new System.Drawing.Size(48, 17);
+            this.chkViewHide2.TabIndex = 19;
+            this.chkViewHide2.Text = "Hide";
+            this.chkViewHide2.UseVisualStyleBackColor = true;
+            this.chkViewHide2.CheckedChanged += new System.EventHandler(this.chkViewHide2_CheckedChanged);
+            // 
+            // chkViewHide3
+            // 
+            this.chkViewHide3.AutoSize = true;
+            this.chkViewHide3.ForeColor = System.Drawing.SystemColors.Control;
+            this.chkViewHide3.Location = new System.Drawing.Point(571, 227);
+            this.chkViewHide3.Name = "chkViewHide3";
+            this.chkViewHide3.Size = new System.Drawing.Size(48, 17);
+            this.chkViewHide3.TabIndex = 20;
+            this.chkViewHide3.Text = "Hide";
+            this.chkViewHide3.UseVisualStyleBackColor = true;
+            this.chkViewHide3.CheckedChanged += new System.EventHandler(this.chkViewHide3_CheckedChanged);
+            // 
             // FormRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -275,5 +303,7 @@ namespace BloodApp
         private System.Windows.Forms.Label lblAlert;
         private Bunifu.Framework.UI.BunifuMaterialTextbox txtUserPosition;
         private System.Windows.Forms.ErrorProvider erpUser;
+        private System.Windows.Forms.CheckBox chkViewHide2;
+        private System.Windows.Forms.CheckBox chkViewHide3;
     }
 }

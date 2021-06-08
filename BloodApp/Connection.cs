@@ -9,6 +9,7 @@ namespace BloodApp
         private static SqlConnection connection()
         {
             SqlConnection connect = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\BloodApp\\BloodApp\\Blood.mdf;Integrated Security=True");
+            //SqlConnection connect = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Blood.mdf;Integrated Security=True");
             return connect;
         }
 
@@ -38,7 +39,7 @@ namespace BloodApp
 
                 return true;
             }
-            catch(Exception e)
+            catch(Exception)
             {
                 return false;
             }

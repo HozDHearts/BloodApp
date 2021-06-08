@@ -2,5 +2,5 @@ projectKey=BloodApp
 serverUrl=http://localhost:9000
 serverVersion=8.8.0.42792
 dashboardUrl=http://localhost:9000/dashboard?id=BloodApp
-ceTaskId=AXj4310txv9LvSAwTHLE
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXj4310txv9LvSAwTHLE
+ceTaskId=AXkxtzyOx2XNQjyToqhR
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXkxtzyOx2XNQjyToqhR

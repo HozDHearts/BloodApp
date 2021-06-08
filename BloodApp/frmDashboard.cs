@@ -19,7 +19,7 @@ namespace BloodApp
 
        private void frmDashboard_Load(object sender, EventArgs e)
         {
-            changeForms(new frminicio());
+            changeForms(new frminicio()); 
         }
 
         private void btnExitDashboard_Click(object sender, EventArgs e)

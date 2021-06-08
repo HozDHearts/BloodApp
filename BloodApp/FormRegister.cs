@@ -28,7 +28,7 @@ namespace BloodApp
 
         private void btnRegisterUser_Click(object sender, EventArgs e)
         {
-            if(validate_Email() && validate_Pass() && validate_Position() && validate_Position() && validate_RepeatPass() && validate_userName() )
+            if (validate_Email() && validate_Pass() && validate_Position() && validate_Position() && validate_RepeatPass() && validate_userName())
             {
                 string User = txtUserNameRegister.Text.Trim(),
                 Password = txtUserPasswordRegister.Text.Trim(),
@@ -53,10 +53,10 @@ namespace BloodApp
         }
         private bool validate_userName()
         {
-            if(txtUserNameRegister.Text.Trim() == "")
+            if (txtUserNameRegister.Text.Trim() == "")
             {
                 erpUser.SetError(txtUserNameRegister, "Use a valid user name");
-            return false;
+                return false;
             }
             else
             {
@@ -71,7 +71,7 @@ namespace BloodApp
         }
         private bool validate_Pass()
         {
-            if(!Regex.IsMatch(txtUserPasswordRegister.Text.Trim(), @"^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$"))
+            if (!Regex.IsMatch(txtUserPasswordRegister.Text.Trim(), @"^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$"))
             {
                 erpUser.SetError(txtUserPasswordRegister, "Invalid Password, Use at Leas One Number, and Upper Case Letter");
                 return false;
@@ -107,7 +107,7 @@ namespace BloodApp
         }
         private bool validate_Email()
         {
-            if(Regex.IsMatch(txtUserEmailRegister.Text.Trim(), @"^[^@] +@[^@] +\.[a-zA - Z]{ 2,}
+            if (Regex.IsMatch(txtUserEmailRegister.Text.Trim(), @"^[^@] +@[^@] +\.[a-zA - Z]{ 2,}
             $"))
             {
                 erpUser.SetError(txtUserEmailRegister, "Use a Valid Email");
@@ -170,6 +170,40 @@ namespace BloodApp
         private void txtUserPosition_OnValueChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void chkViewHide2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkViewHide2.Checked)
+            {
+                txtUserPasswordRegister.isPassword = true;
+                var checkBox2 = (CheckBox)sender;
+                checkBox2.Text = "View";
+
+            }
+            else
+            {
+                txtUserPasswordRegister.isPassword = false;
+                var checkBox2 = (CheckBox)sender;
+                checkBox2.Text = "Hide";
+            }
+        }
+
+        private void chkViewHide3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkViewHide3.Checked)
+            {
+                txtRepeatPasswordRegister.isPassword = true;
+                var checkBox3 = (CheckBox)sender;
+                checkBox3.Text = "View";
+
+            }
+            else
+            {
+                txtRepeatPasswordRegister.isPassword = false;
+                var checkBox3 = (CheckBox)sender;
+                checkBox3.Text = "Hide";
+            }
         }
     }
 }
