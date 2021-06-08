@@ -129,6 +129,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="Blood.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

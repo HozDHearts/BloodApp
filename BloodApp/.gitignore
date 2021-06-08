@@ -1,0 +1,7 @@
+﻿# Carpetas ignoradas
+/bin
+
+# Archivos ignorados
+
+*.mdf
+*.ldf
